@@ -1,0 +1,29 @@
+$mx: 100%;
+$le: left;
+$ri: right;
+$be: #000;
+$cf: #fff;
+#head_ing {
+  width: $mx;
+  height: $mx;
+  position: fixed;
+  top: 0px;
+  background: $cf;
+  z-index: 1000;
+}
+.fix {
+  width: $mx;
+  height: $mx;
+}
+.log {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin-left: $mx - 50;
+  $le: -120px;
+  top: 40%;
+  img {
+    width: $mx;
+    height: auto;
+  }
+}
