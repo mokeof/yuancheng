@@ -1,9 +1,8 @@
-function maxwidth(){
-  if ($(window).width() > 600) {
+function maxwidth() {
+  if ($(window).width() > 700) {
     window.location.href = "indextow.html";
   }
 }
-
 
 (function() {
   "use strict";
